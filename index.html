@@ -4,9 +4,993 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scylla HR Design Test</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo 1.png"
+      type="image/x-icon"
+    />
+    <!-- MeanMenu CSS -->
+    <link
+      rel="stylesheet"
+      href="./assets/js/meanthemes-meanMenu-bfaa395/meanmenu.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/js/OwlCarousel2-2.3.4/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/js/OwlCarousel2-2.3.4/owl.theme.default.min.css"
+    />
     <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/globals.css" />
   </head>
   <body>
-    hello world
+    <!-- Navbar Section -->
+    <section>
+      <nav class="navbar flex items-center">
+        <div class="container flex items-center justify-between">
+          <!-- Logo -->
+          <div class="logo-section">
+            <a href="index.html" class="logo-wrapper">
+              <img
+                src="./assets/images/logo 1.png"
+                alt="Scylla"
+                loading="lazy"
+                class="logo"
+              />
+            </a>
+          </div>
+
+          <!-- Nav Links -->
+          <div class="nav-links-wrapper">
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li class="dropdown">
+                <a href="#" class="flex items-center"
+                  ><span>Why Woods</span>
+                  <img
+                    class="arrow"
+                    src="./assets/images/down-arrow.png"
+                    alt="schylla"
+                  />
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Submenu 1</a></li>
+                  <li><a href="#">Submenu 2</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="flex items-center"
+                  ><span>Practice Areas</span>
+                  <img
+                    class="arrow"
+                    src="./assets/images/down-arrow.png"
+                    alt="schylla"
+                /></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Submenu 1</a></li>
+                  <li><a href="#">Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Call to Action -->
+          <div class="cta">
+            <p class="text-start">Click to call now</p>
+            <a href="tel:8648120313442">
+              <img
+                src="./assets/images/f96b782e46b1ea0ae3604dec332630b1.gif"
+                alt="scylla"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- hero -->
+    <section class="hero-section">
+      <video autoplay muted loop class="background-video">
+        <source
+          src="./assets/images/video-bg/-0648-474e-b78b-21a8891cee55.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <div class="content relative">
+        <div class="container mt-5">
+          <div class="flex items-start justify-between">
+            <div class="flex-10 h-inherit d-sm-none">
+              <div class="flex flex-col justify-between hero-social-section">
+                <div class="relative">
+                  <p class="hero-social-text absolute">SOCIAL</p>
+                </div>
+
+                <div class="flex flex-col g-4 justify-between">
+                  <a class="hero-social-links" href="#">
+                    <img
+                      src="./assets/images/social/Instagram - Negative.png"
+                      alt="instagram"
+                    />
+                  </a>
+                  <a class="hero-social-links" href="#">
+                    <img
+                      src="./assets/images/social/Facebook.png"
+                      alt="facebook"
+                    />
+                  </a>
+                  <a class="hero-social-links" href="#">
+                    <img
+                      src="./assets/images/social/YouTube - Negative.png"
+                      alt="youtube"
+                    />
+                  </a>
+                  <a class="hero-social-links" href="#">
+                    <img src="./assets/images/social/path1009.png" alt="x" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="flex-45">
+              <p class="text-secondary font-itc fw-5 fs-25 mb-2">
+                South Carolina Personal Injury & <br />
+                Criminal Defense Lawyer
+              </p>
+              <h2 class="fw-lg fs-100 font-gothic">YOU HAVE RIGHTS</h2>
+              <h2 class="fw-lg fs-100 font-gothic">
+                WE <span class="text-secondary">PROTECT</span> THEM
+              </h2>
+              <p class="mb-2 fs-25">
+                We founded our law firm in 1997, based on the premise that we
+                would fight to uphold any and all legal rights that our clients
+                are afforded under U.S. law. We focus our practice in two areas
+                only criminal defence and personal injury.
+              </p>
+              <button class="btn-primary flex flex-col justify-center">
+                <p class="font-itc mb-1">Get Free Consultation</p>
+                <h2 class="font-gothic">(864)837-9876</h2>
+              </button>
+            </div>
+            <div class="flex-45 hero-image-section-wrapper">
+              <div class="hero-image-section">
+                <img src="./assets/images/image 2.png" alt="schylla" />
+                <img
+                  src="./assets/images/8516 1.png"
+                  alt="schylla"
+                  class="absolute hero-usa-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- partners slider -->
+    <section class="partner-slider-section">
+      <div class="my-3">
+        <div class="owl-carousel">
+          <div class="partner-card">
+            <img
+              src="/assets/images/partners/aafj.png"
+              alt="schylla"
+              loading="lazy"
+            />
+          </div>
+          <div class="partner-card">
+            <img
+              src="/assets/images/partners/aba.png"
+              alt="schylla"
+              loading="lazy"
+            />
+          </div>
+          <div class="partner-card">
+            <img
+              src="/assets/images/partners/cnn.png"
+              alt="schylla"
+              loading="lazy"
+            />
+          </div>
+          <div class="partner-card">
+            <img
+              src="/assets/images/partners/fox.png"
+              alt="schylla"
+              loading="lazy"
+            />
+          </div>
+          <div class="partner-card">
+            <img
+              src="/assets/images/partners/nacdl2.png"
+              alt="schylla"
+              loading="lazy"
+            />
+          </div>
+          <div class="partner-card">
+            <img
+              src="/assets/images/partners/nbc.png"
+              alt="schylla"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="about-section bg-light py-5 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2 class="fs-90 font-gothic mb-2">
+              SOUTH CAROLINA
+              <span class="text-secondary">CRIMINAL DEFENSE</span> &
+              <span class="text-secondary">PERSONAL INJURY</span> LAWYER
+            </h2>
+            <p class="font-itc about-subtitle mb-2">
+              You don't have time for problems. If you need <br />
+              answers, you can get help right now.
+            </p>
+            <p class="fs-25 mb-2 line-height-1-4">
+              When you are accused of a crime, it is a frightening experience.
+              If it is your first time, you do not know who to turn to for help
+              or what to do next. However, every step that you take can have a
+              serious impact on the outcome of your case. You need a lawyer who
+              can help protect your legal rights and a law firm that knows what
+              to do at every stage of the case.
+            </p>
+            <p class="fs-25 line-height-1-4">
+              For more than 24 years, the Woods Law Firm has protected the
+              rights of people accused of a crime in South Carolina. We have
+              experience in all 46 counties in the state and a team of
+              experienced and skilled criminal defense attorneys who have won
+              thousands of cases for our clients.
+            </p>
+          </div>
+          <div class="col-6">
+            <div class="relative about-img-section m-t-r">
+              <img
+                src="./assets/images/Rectangle 25477.png"
+                alt="schylla"
+                loading="lazy"
+                class="about-img"
+              />
+              <img
+                src="./assets/images/Vector 6829.png"
+                alt="schylla"
+                loading="lazy"
+                class="absolute about-float-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section -->
+    <section class="services-section pb-5">
+      <div class="container pt-5 pb-5">
+        <div class="row gap-4 items-center">
+          <div class="col-6">
+            <h2 class="fs-90 font-gothic mb-2">
+              <span class="text-secondary">CRIMINAL DEFENSE</span><br />
+              PRACTICE AREAS
+            </h2>
+          </div>
+          <div class="col-6">
+            <p class="fs-25">
+              Our attorneys handle all types of criminal defense cases. There
+              are no cases that are too small or too complex for us to take on.
+              We help clients in the following areas
+            </p>
+          </div>
+        </div>
+        <div
+          class="services-grid flex flex-wrap items-center justify-center mt-4 pb-5"
+        >
+          <div class="flex flex-wrap flex-col">
+            <div class="relative overflow-hidden service-card">
+              <img
+                class="service-image"
+                src="./assets/images/Rectangle 25478.png"
+                alt="schylla"
+                loading="lazy"
+              />
+              <div class="service-overlay">
+                <a href="#" class="fs-25"> DUI </a>
+              </div>
+            </div>
+            <div class="relative overflow-hidden service-card">
+              <img
+                class="service-image"
+                src="./assets/images/Screenshot 2024-01-20 at 12.40 1.png"
+                alt="schylla"
+                loading="lazy"
+              />
+              <div class="service-overlay">
+                <a href="#" class="fs-25"> DUI </a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap flex-col">
+            <div class="relative overflow-hidden service-card">
+              <img
+                class="service-image"
+                src="./assets/images/Rectangle 25507.png"
+                alt="schylla"
+                loading="lazy"
+              />
+              <div class="service-overlay">
+                <a href="#" class="fs-25">Burglary/Robbery</a>
+              </div>
+            </div>
+            <div class="relative overflow-hidden service-card">
+              <img
+                class="service-image"
+                src="./assets/images/Rectangle 25506.png"
+                alt="schylla"
+                loading="lazy"
+              />
+              <div class="service-overlay">
+                <a href="#" class="fs-25">Drug Crimes</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="relative overflow-hidden service-card">
+            <img
+              class="service-image"
+              src="./assets/images/Rectangle 25480.png"
+              alt="schylla"
+              loading="lazy"
+            />
+            <div class="service-overlay">
+              <a href="#" class="fs-25">White Collar Crimes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- add section -->
+    <section class="container relative overflow-visible">
+      <div class="add-section z-1 bg-add absolute px-5 py-3">
+        <div class="row h-100">
+          <div class="col-6">
+            <h2 class="fs-70 text-white font-gothic">
+              GET A
+              <span class="text-secondary"
+                >FREE <br />
+                CONSULTATION</span
+              >
+              NOW
+            </h2>
+            <p class="fs-25 text-white">
+              reddy Woods and staff are ready to speak with you.
+            </p>
+          </div>
+          <div class="col-6">
+            <div
+              class="h-100 w-100 flex flex-col items-end justify-center add-phone"
+            >
+              <div>
+                <p class="text-white fs-20 ms-1 font-itc text-start">
+                  Get Free Consultation
+                </p>
+                <img
+                  src="./assets/images/f96b782e46b1ea0ae3604dec332630b1.gif"
+                  alt="schylla"
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us section -->
+    <section class="bg-light pt-5">
+      <div class="choose-us-content pb-5">
+        <div class="container">
+          <h2 class="fs-90 font-gothic text-center">
+            WHY CHOOSE <span class="text-secondary">THE WOODS LAW FIRM?</span>
+          </h2>
+          <p class="fs-25 text-center mb-5">
+            Our attorneys handle all types of criminal defense cases. There are
+            no cases that are too small or too complex for <br />
+            us to take on. We help clients in the following areas
+          </p>
+        </div>
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-6">
+              <h2 class="fs-50 font-gothic">
+                We represent the people against <br />
+                the powerful?
+              </h2>
+            </div>
+            <div class="col-6">
+              <p class="fs-20">
+                We represent people against the powerful. Our mission is focused
+                on fighting for your rights against prosecutors and the court
+                system. We have decades of experience on our side, which means
+                our team of attorneys and staff have successfully defended
+                thousands of people and achieved successes on their behalf. We
+                are dedicated to helping you get the best possible outcome for
+                your case and we always fight to win.
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-start">
+            <div class="col-6">
+              <h2 class="fs-50 font-gothic">
+                We are top rated, award- <br />winning attorneys?
+              </h2>
+            </div>
+            <div class="col-6">
+              <p class="fs-20">
+                We take our obligation to aggressively defend you seriously.
+                Therefore, our attorneys and staff are constantly trained on
+                trial procedures throughout the year and we have won numerous
+                awards for our legal services. Our client advocacy team has been
+                recognized for their legal services. We constantly seek to
+                improve our services to our clients. We meet regularly to
+                improve our efficiencies so that you can be assured that your
+                legal team is using the latest technology and is aware of
+                current legal developments.
+              </p>
+            </div>
+          </div>
+
+          <div class="row align-items-start">
+            <div class="col-6">
+              <h2 class="fs-50 font-gothic">24/7 365 Service?</h2>
+            </div>
+            <div class="col-6">
+              <p class="fs-20">
+                We represent people against the powerful. Our mission is focused
+                on fighting for your rights against prosecutors and the court
+                system. We have decades of experience on our side, which means
+                our team of attorneys and staff have successfully defended
+                thousands of people and achieved successes on their behalf. We
+                are dedicated to helping you get the best possible outcome for
+                your case and we always fight to win.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section -->
+    <section class="testimonial-section bg-add text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="my-5">
+              <h2 class="fs-90 font-gothic">
+                WHAT OUR
+                <span class="text-secondary"
+                  >CORE <br />
+                  CLIENTS</span
+                >
+                ARE SAYING
+              </h2>
+              <p class="fs-20 pe-5">
+                We’ve been fighting for our clients and winning for them for
+                over 24 years. Our success in trial has garnered news coverage
+                from major news outlets and our top-rated award-winning lawyers
+                are members of several prestigious organizations. We strive to
+                achieve the highest levels of customer service and professional
+                excellence.
+              </p>
+              <div class="flex flex-wrap items-center g-5 mt-3">
+                <div class="testimonial-icon-wrapper">
+                  <img
+                    src="./assets/images/partners/cnn_light.png"
+                    alt="schylla"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="testimonial-icon-wrapper">
+                  <img
+                    src="./assets/images/partners/aba2.png"
+                    alt="schylla"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="testimonial-icon-wrapper">
+                  <img
+                    src="./assets/images/partners/aafj2.png"
+                    alt="schylla"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="testimonial-icon-wrapper">
+                  <img
+                    src="./assets/images/partners/fox2.png"
+                    alt="schylla"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="testimonial-icon-wrapper">
+                  <img
+                    src="./assets/images/partners/nacdl23.png"
+                    alt="schylla"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="testimonial-icon-wrapper">
+                  <img
+                    src="./assets/images/partners/nbc2.png"
+                    alt="schylla"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="item-wrapper">
+              <div class="testimonial-item p-1 mb-1rem">
+                <h2 class="font-itc">Highly Recommended</h2>
+                <p class="my-1 fs-16">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Mollitia, dolorum? Unde animi sequi, asperiores deleniti sunt
+                  vel aliquid sint harum laborum reiciendis consequatur magnam
+                  nesciunt saepe porro fugit pariatur minima quidem corrupti
+                  minus ratione atque! Est consectetur error
+                </p>
+                <div class="flex items-center justify-between">
+                  <p class="relative author ms-2">Alexios</p>
+                  <div>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item p-1 mb-1rem">
+                <h2 class="font-itc">Highly Recommended</h2>
+                <p class="my-1 fs-16">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Mollitia, dolorum? Unde animi sequi, asperiores deleniti sunt
+                  vel aliquid sint harum laborum reiciendis consequatur magnam
+                  nesciunt saepe porro fugit pariatur minima quidem corrupti
+                  minus ratione atque! Est consectetur error
+                </p>
+                <div class="flex items-center justify-between">
+                  <p class="relative author ms-2">Alexios</p>
+                  <div>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item p-1 mb-1rem">
+                <h2 class="font-itc">Highly Recommended</h2>
+                <p class="my-1 fs-16">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Mollitia, dolorum? Unde animi sequi, asperiores deleniti sunt
+                  vel aliquid sint harum laborum reiciendis consequatur magnam
+                  nesciunt saepe porro fugit pariatur minima quidem corrupti
+                  minus ratione atque! Est consectetur error
+                </p>
+                <div class="flex items-center justify-between">
+                  <p class="relative author ms-2">Alexios</p>
+                  <div>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-item p-1 mb-1rem">
+                <h2 class="font-itc">Highly Recommended</h2>
+                <p class="my-1 fs-16">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Mollitia, dolorum? Unde animi sequi, asperiores deleniti sunt
+                  vel aliquid sint harum laborum reiciendis consequatur magnam
+                  nesciunt saepe porro fugit pariatur minima quidem corrupti
+                  minus ratione atque! Est consectetur error
+                </p>
+                <div class="flex items-center justify-between">
+                  <p class="relative author ms-2">Alexios</p>
+                  <div>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                    <span class="star">&#11088;</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blogs section -->
+    <section class="blogs-section">
+      <div class="container py-5">
+        <div class="flex flex-wrap items-center justify-between mb-2">
+          <h2 class="fs-90 font-gothic">
+            OUR <span class="text-secondary">BLOGS</span>
+          </h2>
+          <a href="#" class="btn-primary relative">
+            <p class="font-gothic fs-50 pe-2">
+              VIEW ALL <span class="btn-arrow">&#x279C;</span>
+            </p>
+          </a>
+        </div>
+        <div class="blog-cards-section">
+          <div class="flex items-center flex-wrap justify-between">
+            <a href="#" class="blog-card text-white blog-card-bg">
+              <div class="blog-card-content p-2">
+                <h3 class="font-gothic fs-50 mb-1rem">
+                  HOW DO INSURANCE COMPANIES CALCULATE LO...
+                </h3>
+                <p class="mb-2">
+                  After a car accident, the repercussions go beyond immediate
+                  physical and emotional effects. The financial impact...
+                </p>
+                <p>24 Dec 2023 - 7 min read</p>
+              </div>
+            </a>
+            <a href="#" class="blog-card">
+              <div class="blog-card-content p-2">
+                <h3 class="font-gothic fs-50 mb-1rem">
+                  HOW DO INSURANCE COMPANIES CALCULATE LO...
+                </h3>
+                <p class="mb-2">
+                  After a car accident, the repercussions go beyond immediate
+                  physical and emotional effects. The financial impact...
+                </p>
+                <p>24 Dec 2023 - 7 min read</p>
+              </div>
+              <div class="h-100">
+                <img
+                  src="./assets/images/Rectangle 254793.png"
+                  alt="schylla"
+                  loading="lazy"
+                />
+              </div>
+            </a>
+            <a href="#" class="blog-card">
+              <div class="blog-card-content p-2">
+                <h3 class="font-gothic fs-50 mb-1rem">
+                  HOW DO INSURANCE COMPANIES CALCULATE LO...
+                </h3>
+                <p class="mb-2">
+                  After a car accident, the repercussions go beyond immediate
+                  physical and emotional effects. The financial impact...
+                </p>
+                <p>24 Dec 2023 - 7 min read</p>
+              </div>
+              <div class="h-100">
+                <img
+                  src="./assets/images/Rectangle 254794.png"
+                  alt="schylla"
+                  loading="lazy"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- location section -->
+    <section class="location-section">
+      <iframe
+        class="w-100 h-100"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187870281!2d90.33728792976281!3d23.780975728463023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1734719824606!5m2!1sen!2sbd"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="container relative">
+        <div class="location-card-section w-100 absolute">
+          <div class="flex items-center">
+            <div class="location-card active p-2">
+              <h2 class="fs-50 font-gothic">GREER, SC</h2>
+              <p class="font-itc my-1">The Woods Law Firm</p>
+              <p class="fs-15">
+                955 WEST WADE HAMPTON BLVD, #10B,GREER, SC 29650
+              </p>
+              <button
+                class="my-1 btn-outline location-btn"
+                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187870281!2d90.33728792976281!3d23.780975728463023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sGreer!5e0!3m2!1sen!2sus!4v1734719824606!5m2!1sen!2sus"
+              >
+                Law Office Directions
+              </button>
+              <p class="fs-5 mb-1">Free Consultation</p>
+              <p class="fs-30 font-gothic text-secondary">876-987-0098</p>
+            </div>
+            <div class="location-card p-2">
+              <h2 class="fs-50 font-gothic">COLUMBIA, SC</h2>
+              <p class="font-itc my-1">The Woods Law Firm</p>
+              <p class="fs-15">
+                3501 NORTH MAIN STREET, #200COLUMBIA, SC 29203
+              </p>
+              <button
+                class="my-1 btn-outline location-btn"
+                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14710.423376153822!2d89.55525406085115!3d22.81706454775953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff90193c82d64b%3A0xd48ce5c464563d6d!2sKhulna%20City%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1734724176293!5m2!1sen!2sbd"
+              >
+                Law Office Directions
+              </button>
+
+              <p class="fs-5 mb-1">Free Consultation</p>
+              <p class="fs-30 font-gothic text-secondary">876-987-0098</p>
+            </div>
+            <div class="location-card p-2">
+              <h2 class="fs-50 font-gothic">BEAUFORT</h2>
+              <p class="font-itc my-1">The Woods Law Firm</p>
+              <p class="fs-15">
+                3501 NORTH MAIN STREET, #200COLUMBIA, SC 29203
+              </p>
+              <button
+                class="my-1 btn-outline location-btn"
+                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58144.75383544826!2d88.56496052262902!3d24.379664359716045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefa96a38d031%3A0x10f93a950ed6f410!2sRajshahi!5e0!3m2!1sen!2sbd!4v1734724273384!5m2!1sen!2sbd2sbd"
+              >
+                Law Office Directions
+              </button>
+
+              <p class="fs-5 mb-1">Free Consultation</p>
+              <p class="fs-30 font-gothic text-secondary">876-987-0098</p>
+            </div>
+            <div class="location-card p-2">
+              <h2 class="fs-50 font-gothic">ROCK HILL</h2>
+              <p class="font-itc my-1">The Woods Law Firm</p>
+              <p class="fs-15">
+                3501 NORTH MAIN STREET, #200COLUMBIA, SC 29203
+              </p>
+              <button
+                class="my-1 btn-outline location-btn"
+                data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187870281!2d90.33728792976281!3d23.780975728463023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sGreer!5e0!3m2!1sen!2sus!4v1734719824606!5m2!1sen!2sus"
+              >
+                Law Office Directions
+              </button>
+              <p class="fs-5 mb-1">Free Consultation</p>
+              <p class="fs-30 font-gothic text-secondary">876-987-0098</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer-section bg-add">
+      <div class="footer-content-section container text-white">
+        <div class="row pb-4 g-5">
+          <div class="col-4">
+            <a href="#">
+              <img
+                class="mb-1rem"
+                src="./assets/images/logo 1.png"
+                alt="schylla"
+                loading="lazy"
+              />
+            </a>
+            <p class="fs-15 mb-2 pe-2">
+              At the Woods Law Firm, we represent people against the powerful.
+              Our mission is focused on fighting for your rights against
+              prosecutors and the court system. We are dedicated to helping you
+              get the best possible outcome for your case.
+            </p>
+            <div class="footer-social-icon-group flex items-center g-5">
+              <a href="#" class="hero-social-links">
+                <img
+                  src="./assets/images/social/Instagram - Negative2.png"
+                  alt="facebook"
+                />
+              </a>
+              <a href="#" class="hero-social-links">
+                <img src="./assets/images/social/Vector.png" alt="facebook" />
+              </a>
+              <a href="#" class="hero-social-links">
+                <img
+                  src="./assets/images/social/Facebook - Negative.png"
+                  alt="facebook"
+                />
+              </a>
+              <a href="#" class="hero-social-links">
+                <img src="./assets/images/social/layer1.png" alt="facebook" />
+              </a>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="px-5 m-t-r">
+              <h2 class="fs-25 mb-1rem">Quick Links</h2>
+              <div
+                class="flex items-center justify-between justify-sm-start fs-20"
+              >
+                <div class="footer-nav-links">
+                  <a href="#">Home</a>
+                  <a href="#">About</a>
+                  <a href="#">Practice Areas</a>
+                  <a href="#">Why Woods</a>
+                  <a href="#">FAQ</a>
+                </div>
+                <div class="footer-nav-links">
+                  <a href="#">Media</a>
+                  <a href="#">Testimonials</a>
+                  <a href="#">Case Results</a>
+                  <a href="#">Blog</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <form action="" class="news-letter-card m-t-r">
+              <h2 class="fs-25 mb-1rem">Join Newsletter</h2>
+              <p class="mb-2">
+                Stay upto dated with the revolutionary legal technology.
+              </p>
+              <input
+                class="mb-1rem"
+                type="text"
+                placeholder="Enter your email"
+              />
+              <button class="subscribe-btn mt-1 font-gothic fs-25">
+                SUBSCRIBE
+              </button>
+            </form>
+          </div>
+        </div>
+        <hr class="mb-2" style="color: #cecece" />
+        <div
+          class="flex flex-wrap justify-sm-center g-4 items-center justify-between pb-2"
+        >
+          <div class="flex flex-wrap justify-sm-center items-center">
+            <h2 class="fs-15">
+              <span id="current-year"></span> The Woods Law Firm
+            </h2>
+            <p class="px-1 fs-20 d-sm-none">&#8226;</p>
+            <h2 class="fs-15">All Rights Reserved</h2>
+            <div class="fs-15 footer-bottom-links">
+              <a href="#">Disclaimer</a>
+              <span>|</span>
+              <a href="#">Site Map</a>
+              <span>|</span>
+              <a href="#">Privacy Policy</a>
+            </div>
+          </div>
+          <div>
+            <button id="back-to-top" class="back-to-top">Back To Top</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery CDN -->
+
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- MeanMenu Library -->
+    <script src="./assets/js/meanthemes-meanMenu-bfaa395/jquery.meanmenu.min.js"></script>
+    <!-- owl carousel -->
+    <script src="./assets/js/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      // mean menu
+      $(document).ready(function () {
+        $(".nav-links-wrapper").meanmenu({
+          meanMenuContainer: "body",
+          meanScreenWidth: "991",
+          meanRevealPosition: "right",
+          meanMenuOpen: "<span></span><span></span><span></span>",
+        });
+
+        $(".dropdown").on("mouseenter", function () {
+          $(this).children(".dropdown-menu").stop(true, true).slideDown(200);
+        });
+
+        $(".dropdown").on("mouseleave", function () {
+          $(this).children(".dropdown-menu").stop(true, true).slideUp(200);
+        });
+      });
+
+      //partner slider
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          600: {
+            items: 3,
+            nav: false,
+          },
+          991: {
+            items: 3,
+            nav: false,
+          },
+          1200: {
+            items: 4,
+            nav: false,
+          },
+          1366: {
+            items: 5,
+            nav: false,
+          },
+          1400: {
+            items: 7,
+            nav: true,
+            loop: true,
+          },
+        },
+      });
+
+      //lcoation card active status
+      $(document).ready(function () {
+        $(".location-btn").click(function () {
+          $(".location-card").removeClass("active");
+
+          $(this).closest(".location-card").addClass("active");
+
+          const newSrc = $(this).data("src");
+
+          $(".location-section iframe").attr("src", newSrc);
+        });
+      });
+
+      //current year
+      $(document).ready(function () {
+        const currentYear = new Date().getFullYear();
+
+        $("#current-year").text(currentYear);
+      });
+
+      // back to top
+      $(document).ready(function () {
+        $("#back-to-top").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 800);
+          return false;
+        });
+      });
+
+      // horizontal scrolling by dragging
+      $(document).ready(function () {
+        const scrollContainer = $(".location-card-section");
+
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        scrollContainer.mousedown(function (e) {
+          isDown = true;
+          scrollContainer.addClass("active");
+          startX = e.pageX - scrollContainer.offset().left;
+          scrollLeft = scrollContainer.scrollLeft();
+        });
+
+        scrollContainer.mouseleave(function () {
+          isDown = false;
+          scrollContainer.removeClass("active");
+        });
+
+        scrollContainer.mouseup(function () {
+          isDown = false;
+          scrollContainer.removeClass("active");
+        });
+
+        scrollContainer.mousemove(function (e) {
+          if (!isDown) return; // Stop if not dragging
+          e.preventDefault();
+          const x = e.pageX - scrollContainer.offset().left;
+          const walk = (x - startX) * 2; // Scroll faster
+          scrollContainer.scrollLeft(scrollLeft - walk);
+        });
+      });
+    </script>
   </body>
 </html>
